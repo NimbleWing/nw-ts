@@ -7,7 +7,6 @@ const Configuration: UserConfig = {
   parserPreset: 'conventional-changelog-atom',
   formatter: '@commitlint/format',
   rules: {
-    'type-enum': [RuleConfigSeverity.Error, 'always', ['foo']], 
   },
   // ...
 };

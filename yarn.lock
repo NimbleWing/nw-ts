@@ -394,6 +394,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"conventional-changelog-atom@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-atom@npm:5.0.0"
+  checksum: 10c0/d3c8731c04bfb2879e353bd9d67b8385540056034c11aa8076ade15c9ac1865502efe8da52d16129e781d126f3bcc3fb25c43c0bb1db5ffa3f660e2b7c1e015a
+  languageName: node
+  linkType: hard
+
 "conventional-changelog-conventionalcommits@npm:^7.0.2":
   version: 7.0.2
   resolution: "conventional-changelog-conventionalcommits@npm:7.0.2"
@@ -850,6 +857,8 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
+    "@commitlint/types": "npm:^19.0.3"
+    conventional-changelog-atom: "npm:^5.0.0"
     husky: "npm:^9.1.4"
     typescript: "npm:^5.5.4"
   languageName: unknown
