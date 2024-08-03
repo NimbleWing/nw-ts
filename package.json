@@ -5,11 +5,16 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/types": "^19.0.3",
+    "@eslint/js": "^9.8.0",
+    "@types/eslint": "^9",
+    "@types/eslint__js": "^8.42.3",
     "commitizen": "^4.3.0",
     "conventional-changelog-atom": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.8.0",
     "husky": "^9.1.4",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
   },
   "scripts": {
     "prepare": "husky",
